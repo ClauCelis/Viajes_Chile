@@ -60,28 +60,31 @@ background-color: #249AA8;
 }
 
 
-/* Sección 2: Destacados (Cards)HACER CON COLS */
-.featured .content {
+/* Sección 2: Destacados (Cards)*/
+
+/* Para que las cards tengan el mismo alto */
+.row {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.col-12 .col-md-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Esto hace que crezcan para llenar el espacio disponible */
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card img {
+    height: 180px;
 
 }
-.featured .content div {
-    width: 23%;
-    min-width: 200px;
-    margin: 10px 0;
-    background-color: #249AA8;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
-}
-.featured .content div img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 10px;
-
-}
 
 /* Sección 3: Contacto (Formulario) */
 .contact form {
