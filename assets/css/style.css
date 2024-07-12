@@ -1,8 +1,11 @@
 /* ::::: Estructura general :::::*/
 
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #ffffff;
     background-color: #222222;
     
@@ -22,7 +25,7 @@ body {
 }
 
 
-/* Barra de navegación (el color fue escogido para que se confunda con el cielo, por eso no coincide con el celeste que ya hay en la página)*/
+/* Barra de navegación (el color fue escogido para que se funda con el cielo, por eso no coincide con el celeste que ya hay en la página)*/
 .navbar{
 background-color: #249AA8;
 
@@ -40,26 +43,21 @@ background-color: #249AA8;
 
 }
 
-/* SECCIÓN 1: HACER CON COLS */
+/* SECCIÓN 1: ¿Quiénes Somos? */
 
-.about .content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.about .content div {
-    width: 30%;
-    min-width: 250px;
-    margin: 10px 0;
-    background-color: #222;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-.about .content div img {
-    width: 50px;
-    margin-bottom: 10px;
+.about p{
+
+    text-align: left;
+
 }
 
+.about i{
+    background-color: #249AA8;
+    display: block;
+    align-items: center;
+    padding-block: 1rem;
+
+}
 
 
 /* Sección 2: Destacados (Cards)HACER CON COLS */
@@ -73,7 +71,7 @@ background-color: #249AA8;
     width: 23%;
     min-width: 200px;
     margin: 10px 0;
-    background-color: #4ECEF5;
+    background-color: #249AA8;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 }
@@ -97,7 +95,7 @@ background-color: #249AA8;
     border: none;
 }
 .contact form input[type="submit"] {
-    background-color: #4ECEF5;
+    background-color: #249AA8;
     color: #fff;
     cursor: pointer;
     
@@ -105,7 +103,7 @@ background-color: #249AA8;
 
 /* Footer (RRSS) */
 footer {
-    background-color: #4ECEF5ff;
+    background-color: #249AA8;
     align-items: center;
     text-align: center;
     font-size: 1.5rem;
