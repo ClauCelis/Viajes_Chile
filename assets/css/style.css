@@ -1,0 +1,120 @@
+/* ::::: Estructura general :::::*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #222222;
+    
+    
+}
+
+/* Padding y alineación de texto en secciones */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Margen inferior en H2 de secciones */
+.section h2 {
+    margin-bottom: 20px;
+    
+}
+
+
+/* Barra de navegación (el color fue escogido para que se confunda con el cielo, por eso no coincide con el celeste que ya hay en la página)*/
+.navbar{
+background-color: #249AA8;
+
+}
+
+.navbar-brand img{
+    width: 2rem;
+
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+/* SECCIÓN 1: HACER CON COLS */
+
+.about .content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about .content div {
+    width: 30%;
+    min-width: 250px;
+    margin: 10px 0;
+    background-color: #222;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.about .content div img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Sección 2: Destacados (Cards)HACER CON COLS */
+.featured .content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.featured .content div {
+    width: 23%;
+    min-width: 200px;
+    margin: 10px 0;
+    background-color: #4ECEF5;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.featured .content div img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+
+/* Sección 3: Contacto (Formulario) */
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+}
+.contact form input[type="submit"] {
+    background-color: #4ECEF5;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+/* Footer (RRSS) */
+footer {
+    background-color: #4ECEF5ff;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.media-icons{
+    text-decoration: none;
+    color: inherit;
+    margin: 0.5rem;
+
+}
