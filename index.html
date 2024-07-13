@@ -28,10 +28,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto ps-2">
-                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">¿Quiénes Somos?</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Destacados</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#top">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about-section">¿Quiénes Somos?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#featured_section">Destacados</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact_section">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -60,11 +60,11 @@
         </div>
     </header>
 
-    <!-- Sección 1: ¿Quienes somos? (Grilla) HACERLO CON COLS-->
-    <section class="about section d-none d-md-block">
+    <!-- Sección 1: ¿Quienes somos? (Grilla) -->
+    <section class="about section d-none d-md-block" id="about-section">
         <h2>¿QUIÉNES SOMOS?</h2>
         <div class="container text-center">
-            <div class="row mt-5">
+            <div class="row">
             <div class="col-sm">
                 <i class="fa-solid fa-plane fa-xl"></i>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quo explicabo velit sint, tenetur illo soluta deserunt aspernatur iure nisi error id saepe corrupti delectus! Quidem nulla expedita ea reprehenderit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum nobis quis numquam aliquid ut est non doloribus deleniti dignissimos quibusdam vero, ab tempora aliquam odit possimus ea provident ducimus. Earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque accusantium ab id repellendus, aspernatur nemo quo sint ducimus, esse, corrupti mollitia officia illum doloremque recusandae soluta dicta error assumenda.</p>
@@ -87,11 +87,10 @@
    
 
     <!-- Sección 2: Destacados (Cards)-->
-    <section class="featured section">
+    <section class="container section" id="featured_section">
         <h2>DESTACADOS</h2>
         <!-- Cards -->
-        <div class="container">
-        <div class="row mb-2">
+         <div class="row mb-2">
         
         <!-- Card 1 -->
         <div class="col-12 col-md-3 mb-4">
@@ -136,20 +135,24 @@
             </div>
             </div>
         </div>
-    </div>
+        </div>
     </section>
 
     <!-- Sección 3: Contacto (Formulario) -->
-    <section class="contact section">
+    <section class="contact section" id="contact_section">
         <h2>CONTACTO</h2>
-        <form>
-            <input type="text" placeholder="Nombre" required>
-            <input type="text" placeholder="Asunto" required>
-            <textarea placeholder="Mensaje" rows="5" required></textarea>
-            <input type="submit" value="Enviar">
-        </form>
+           
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <input type="submit" value="Enviar">
+      </div>
     </section>
-
+    
     <!-- Footer (RRSS)-->
     <footer class="container-fluid d-flex py-3 px-5">
         <div class="row w-100 px-5">
