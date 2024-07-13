@@ -24,7 +24,6 @@ body {
     
 }
 
-
 /* Barra de navegación (el color fue escogido para que se funda con el cielo, por eso no coincide con el celeste que ya hay en la página)*/
 .navbar{
 background-color: #249AA8;
@@ -73,11 +72,9 @@ background-color: #249AA8;
     flex-direction: column;
 }
 
-/* Esto hace que crezcan para llenar el espacio disponible */
 .card {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+   background-color: #249AA8;
+    
 }
 
 .card img {
