@@ -20,16 +20,24 @@
 <body>
     <header>
         <!-- Barra de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt="logo"/>Viajes Chile</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto ps-2">
                         <li class="nav-item"><a class="nav-link" href="#top">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about-section">¿Quiénes Somos?</a></li>
+                        <li class="nav-item d-none d-md-block"><a class="nav-link" href="#about-section">¿Quiénes Somos?</a></li>
                         <li class="nav-item"><a class="nav-link" href="#featured_section">Destacados</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact_section">Contacto</a></li>
                     </ul>
@@ -67,94 +75,108 @@
             <div class="row">
             <div class="col-sm">
                 <i class="fa-solid fa-plane fa-xl"></i>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quo explicabo velit sint, tenetur illo soluta deserunt aspernatur iure nisi error id saepe corrupti delectus! Quidem nulla expedita ea reprehenderit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum nobis quis numquam aliquid ut est non doloribus deleniti dignissimos quibusdam vero, ab tempora aliquam odit possimus ea provident ducimus. Earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque accusantium ab id repellendus, aspernatur nemo quo sint ducimus, esse, corrupti mollitia officia illum doloremque recusandae soluta dicta error assumenda.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quo explicabo velit sint, tenetur illo soluta deserunt aspernatur iure nisi error id saepe corrupti delectus! Quidem nulla expedita ea reprehenderit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><p>Cum nobis quis numquam aliquid ut est non doloribus deleniti dignissimos quibusdam vero, ab tempora aliquam odit possimus ea provident ducimus. Earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque accusantium ab id repellendus, aspernatur nemo quo sint ducimus, esse, corrupti mollitia officia illum doloremque recusandae soluta dicta error assumenda.</p>
             </div>
 
             <div class="col-sm">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellendus libero deserunt voluptatum! Vero fuga perspiciatis totam commodi quae, pariatur repellendus porro ipsa culpa exercitationem sunt rem earum officia ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio id, animi ex dolorem doloribus molestias ab, a beatae pariatur atque eaque, eius sequi? Impedit, sit at eum facilis nisi dignissimos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam odit tempora voluptatem consequatur nemo unde tenetur itaque, officia ducimus fugit asperiores distinctio magni magnam, adipisci quod ipsam, sequi ea iusto?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellendus libero deserunt voluptatum! Vero fuga perspiciatis totam commodi quae, pariatur repellendus porro ipsa culpa exercitationem sunt rem earum officia ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio id, animi ex dolorem doloribus molestias ab, a beatae pariatur atque eaque, eius sequi? Impedit, sit at eum facilis nisi dignissimos. </p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit tempora voluptatem consequatur nemo unde tenetur itaque, officia ducimus fugit asperiores distinctio magni magnam, adipisci quod ipsam, sequi ea iusto?</p>
                 <i class="fa-solid fa-mountain fa-xl"></i>
             </div>
             
             <div class="col-sm">
                 <i class="fa-solid fa-route fa-xl"></i>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa repellat molestiae natus doloremque minus distinctio saepe autem eum, vel similique odit harum eaque sapiente nemo delectus nihil quasi, iure accusantium?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aut aliquam eaque? Eveniet praesentium ut a aliquid doloribus reiciendis doloremque, maiores tempora illum ex cumque ad! Fugiat esse laudantium magnam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum veritatis, inventore in animi quia cumque deleniti repellendus, nobis optio quo voluptate fugiat neque dolore esse ipsam dicta perspiciatis facere reiciendis.</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa repellat molestiae natus doloremque minus distinctio saepe autem eum, vel similique odit harum eaque sapiente nemo delectus nihil quasi, iure accusantium?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aut aliquam eaque? Eveniet praesentium ut a aliquid doloribus reiciendis doloremque, maiores tempora illum ex cumque ad! Fugiat esse laudantium magnam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum veritatis, inventore in animi quia cumque deleniti repellendus, nobis optio quo voluptate fugiat neque dolore esse ipsam dicta perspiciatis facere reiciendis.</p>
             </div>
 
         </div>
         </div>
     </section>
-
-   
-
-    <!-- Sección 2: Destacados (Cards)-->
+  
+    <!-- Sección 2: Destacados (Cards). Le puse contenido a las cards por un tema de buenas prácticas de UX-->
     <section class="container section" id="featured_section">
         <h2>DESTACADOS</h2>
         <!-- Cards -->
-         <div class="row mb-2">
+        <div class="row mb-2">
         
-        <!-- Card 1 -->
-        <div class="col-12 col-md-3 mb-4">
-            <div class="card h-100 text-white">
-            <img src="./assets/img/card1.jpg" alt="Destacado 1">
-            <div class="card-body">
-            <h5>Torres del Paine</h5>
-            <p class="card-text">Embárcate en una aventura inolvidable, explorando glaciares, lagos turquesa y majestuosas montañas. Disfruta de caminatas por senderos icónicos y observa la abundante vida silvestre.</p>
+            <!-- Card 1 -->
+            <div class="col-12 col-md-3 mb-4">
+                <div class="card h-100 text-white">
+                    <img src="./assets/img/card1.jpg" alt="Destacado 1">
+                    <div class="card-body">
+                        <h5>Torres del Paine</h5>
+                        <p class="card-text">Embárcate en una aventura inolvidable, explorando glaciares, lagos turquesa y majestuosas montañas. Disfruta de caminatas por senderos icónicos y observa la abundante vida silvestre.</p>
+                    </div>
+                </div>
             </div>
+            
+            <!-- Card 2 -->
+            <div class="col-12 col-md-3 mb-4">
+                <div class="card h-100 text-white">
+                    <img src="./assets/img/card2.jpg" alt="Destacado 2">
+                    <div class="card-body">
+                        <h5>Full day Piedras Rojas</h5>
+                        <p class="card-text">Descubre los impresionantes volcanes y lagos de San Pedro de Atacama, un paisaje único de desierto y altura. Aventúrate en excursiones a lagunas altiplánicas y a majestuosos volcanes.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <!-- Card 2 -->
-        <div class="col-12 col-md-3 mb-4">
-            <div class="card h-100 text-white">
-            <img src="./assets/img/card2.jpg" alt="Destacado 2">
-            <div class="card-body">
-            <h5>Full day Piedras Rojas</h5>
-            <p class="card-text">Descubre los impresionantes volcanes y lagos de San Pedro de Atacama, un paisaje único de desierto y altura. Aventúrate en excursiones a lagunas altiplánicas y a majestuosos volcanes.</p>
+            
+            <!-- Card 3 -->
+            <div class="col-12 col-md-3 mb-4">
+                <div class="card h-100 text-white">
+                    <img src="./assets/img/card3.jpg" alt="Destacado 3">
+                    <div class="card-body">
+                        <h5>San Pedro de Atacama</h5>
+                        <p class="card-text">Descubre un oasis en el desierto con paisajes surrealistas, salares y géiseres. Disfruta de excursiones a lagunas altiplánicas y el Valle de la Luna.</p>
+                    </div>
+                </div>
             </div>
+            
+            <!-- Card 4 -->
+            <div class="col-12 col-md-3 mb-4">
+                <div class="card h-100 text-white">
+                    <img src="./assets/img/card4.jpg" alt="Destacado 4">
+                    <div class="card-body">
+                        <h5>Carretera Austral</h5>
+                        <p class="card-text">Explora un recorrido épico por la Patagonia chilena con paisajes de montañas, ríos y bosques prístinos. Aventúrate en excursiones por parques nacionales y pintorescos pueblos.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <!-- Card 3 -->
-        <div class="col-12 col-md-3 mb-4">
-            <div class="card h-100 text-white">
-            <img src="./assets/img/card3.jpg" alt="Destacado 3">
-            <div class="card-body">
-            <h5>San Pedro de Atacama</h5>
-            <p class="card-text">Descubre un oasis en el desierto con paisajes surrealistas, salares y géiseres. Disfruta de excursiones a lagunas altiplánicas y el Valle de la Luna.</p>
-            </div>
-            </div>
-        </div>
-        
-        <!-- Card 4 -->
-        <div class="col-12 col-md-3 mb-4">
-            <div class="card h-100 text-white">
-            <img src="./assets/img/card4.jpg" alt="Destacado 4">
-            <div class="card-body">
-            <h5>Carretera Austral</h5>
-            <p class="card-text">Explora un recorrido épico por la Patagonia chilena con paisajes de montañas, ríos y bosques prístinos. Aventúrate en excursiones por parques nacionales y pintorescos pueblos.</p>
-            </div>
-            </div>
-        </div>
         </div>
     </section>
 
-    <!-- Sección 3: Contacto (Formulario) -->
+    <!-- Sección 3: Contacto (Formulario). Puse 2 columnas vacías para que el formulario no quedara tan extremadamente largo -->
     <section class="contact section" id="contact_section">
         <h2>CONTACTO</h2>
-           
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <input type="submit" value="Enviar">
-      </div>
+        <!-- Columna vacía -->
+        <div class="container col-md-3"></div>
+
+        <!-- Columna central con formulario -->
+        <div class=" container col-12 col-md-6 align-items-center">      
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button type="button" id="enviarCorreo" class="btn btn-primary mt-4 col-12 col-md-1"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-custom-class="custom-tooltip"
+                        title="Presiona para enviar correo">Enviar
+                </button>
+        </div>
+        
+        <!-- Columna vacía -->
+        <div class="col-md-3"></div>
     </section>
     
     <!-- Footer (RRSS)-->
-    <footer class="container-fluid d-flex py-3 px-5">
+    <footer class="container-fluid d-flex py-2 px-5">
         <div class="row w-100 px-5">
             <div class= "col-12 col-md-6 pt-3">
                 <p>VIAJES CHILE</p>
@@ -169,8 +191,6 @@
         </div> 
     </footer>
        
-    
-    
     
     <!-- 1. jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>

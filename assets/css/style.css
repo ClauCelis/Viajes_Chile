@@ -18,7 +18,7 @@ body {
     
 }
 
-/* Margen inferior y alineación en H2 de secciones (por eso tenía style separado, no me acordé. Por eso, cuando lo saqué, se corrió el h2 a la izquierda) */
+/* Margen inferior y alineación en H2 de secciones (por eso tenía section separado, no me acordé. Por eso, cuando lo saqué, se corrió el h2 a la izquierda) */
 .section h2 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -26,9 +26,14 @@ body {
     
 }
 
-/* Barra de navegación (el color fue escogido para que se funda con el cielo, por eso no coincide con el celeste que ya hay en la página)*/
+/* Barra de navegación (resolví el tema del fondo usando el efecto blur)*/
 .navbar{
-background-color: #249AA8;
+background: rgba(255, 255, 255, 0.20);
+border-radius: 0px 0px 10px 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.5px);
+-webkit-backdrop-filter: blur(5.3px);
+border: 1px solid rgba(36, 154, 168, 0.1);
 
 }
 
@@ -64,30 +69,21 @@ background-color: #249AA8;
 
 .card {
     background-color: #249AA8;
+    border-radius: 10px;
     
 }
 
 .card img {
     height: 180px;
-
+    border-radius: 10px;
 }
 
 
 /* Sección 3: Contacto (Formulario) */
-.contact form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-.contact form input, .contact form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: none;
-}
-.contact form input[type="submit"] {
+
+.btn-primary{
     background-color: #249AA8;
-    color: #fff;
-    cursor: pointer;
+    border-color: #249AA8;;
     
 }
 
@@ -106,3 +102,4 @@ footer {
     margin: 0.5rem;
 
 }
+
