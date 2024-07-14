@@ -81,25 +81,36 @@ border: 1px solid rgba(36, 154, 168, 0.1);
 
 /* Sección 3: Contacto (Formulario) */
 
-.btn-primary{
+.custom {
     background-color: #249AA8;
-    border-color: #249AA8;;
-    
+    border-color: #249AA8;
+    color:#ffffff;   
 }
 
+.custom:hover {
+    background-color: #32cadb;
+    border-color: #32cadb;
+    color:#ffffff;  
+}
+
+.custom:disabled {
+    background-color: #024d56;
+    border-color: #024d56;
+    color:#ffffff;  
+}
+
+
 /* Footer (RRSS) */
-footer {
+.footer {
     background-color: #249AA8;
-    align-items: center;
-    text-align: center;
     font-size: 1.5rem;
-    
+        
 }
 
 .media-icons{
     text-decoration: none;
     color: inherit;
-    margin: 0.5rem;
+    margin: 0.4rem;
 
 }
 
