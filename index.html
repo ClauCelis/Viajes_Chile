@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
-
+    <link rel="shortcut icon" type="image/svg" href="./assets/img/viajes.svg">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/059cffcd48.js" crossorigin="anonymous"></script>
 
@@ -57,7 +57,14 @@
                 <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="slide 3">
               </div>
             </div>
-           </button>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
         </div>
     </header>
 
@@ -158,7 +165,7 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                 </div>
                 <button type="button" id="enviarCorreo" class="btn custom mt-4 col-12 col-md-3"
-                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-toggle="tooltip" data-bs-placement="right"
                         title="Presiona para enviar tu mensaje">Enviar
                 </button>
         </div>
@@ -174,10 +181,14 @@
     </div>
            
     <div class="col-12 col-md-6" style="text-align: center">
-        <a href="https://github.com/" class="media-icons" target="_blank"><i class="fa-brands fa-square-github fa-lg"></i></a>
-        <a href="https://www.linkedin.com/" class="media-icons" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a>
-        <a href="https://x.com/" class="media-icons" target="_blank"><i class="fa-brands fa-square-x-twitter fa-lg"></i></a>
-        <a href="https://www.facebook.com/" class="media-icons" target="_blank"><i class="fa-brands fa-square-facebook fa-lg"></i></a>
+        <a href="https://github.com/" class="media-icons" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+        title="Github"><i class="fa-brands fa-square-github fa-lg"></i></a>
+        <a href="https://www.linkedin.com/" class="media-icons" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+        title="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        <a href="https://x.com/" class="media-icons" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+        title="X"><i class="fa-brands fa-square-x-twitter fa-lg"></i></a>
+        <a href="https://www.facebook.com/" class="media-icons" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+        title="Facebook"><i class="fa-brands fa-square-facebook fa-lg"></i></a>
     </div>
         
         
