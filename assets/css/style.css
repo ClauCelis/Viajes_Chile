@@ -93,13 +93,6 @@ border: 1px solid rgba(36, 154, 168, 0.1);
     color:#ffffff;  
 }
 
-.custom:disabled {
-    background-color: #024d56;
-    border-color: #024d56;
-    color:#ffffff;  
-}
-
-
 /* Footer (RRSS) */
 .footer {
     background-color: #249AA8;
